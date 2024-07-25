@@ -1,13 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using FluentBuilder = DesignPatterns.Creational.BuilderPattern.FluentBuilder;
-using StepwiseBuilder = DesignPatterns.Creational.BuilderPattern.StepwiseBuilder;
-using FluentBuilderInheritance = DesignPatterns.Creational.BuilderPattern.FluentBuilderInheritance;
-using FunctionalBuilder1 = DesignPatterns.Creational.BuilderPattern.FunctionalBuilder1;
-using FunctionalBuilder2 = DesignPatterns.Creational.BuilderPattern.FunctionalBuilder2;
-using FacetedBuilder = DesignPatterns.Creational.BuilderPattern.FacetedBuilder;
-using Exercise = DesignPatterns.Creational.BuilderPattern.Exercise;
-
 //Console.WriteLine("BUILDER PATTERN");
 //Console.WriteLine("================");
 
@@ -47,6 +39,19 @@ using Exercise = DesignPatterns.Creational.BuilderPattern.Exercise;
 //DesignPatterns.Structural.DecoratorPattern.DynamicDecorator.Program.Main(args);
 //Console.WriteLine("");
 
+//Console.WriteLine("Command Pattern");
 //DesignPatterns.Behavioural.CommandPattern.CompositeCommand.Demo.Main(args);
 
-DesignPatterns.CqrsAndEventSourcing.Program.Main(args);
+//Console.WriteLine("CQRS");
+//DesignPatterns.CqrsAndEventSourcing.Program.Main(args);
+
+Console.WriteLine("-----------");
+Console.WriteLine("MethodChain");
+Console.WriteLine("-----------");
+
+DesignPatterns.Behavioural.ChainOfReponsibility.MethodChain.Demo.Main(args);
+
+Console.WriteLine("-----------");
+Console.WriteLine("BrokenChain");
+Console.WriteLine("-----------");
+DesignPatterns.Behavioural.ChainOfReponsibility.BrokenChain.Demo.Main(args);
